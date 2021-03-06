@@ -31,16 +31,16 @@ const onClickAdd = () =>  {
       //div以下を初期化
       addTarget.textContent  = null;
 
-            //   // liタグ生成　 //
-            //   const li = document.createElement("li");
-            //   li.innerText = text;
+              // liタグ生成　 //
+              const li = document.createElement("li");
+              li.innerText = text;
 
 
 
     //button(削除) タグ生成
      //button タグ生成
      const backButton = document.createElement("button");
-     backbutton.innerText = "戻す";
+     backButton.innerText = "戻す";
 
      addTarget.appendChild(li);
      addTarget.appendChild(backButton);
