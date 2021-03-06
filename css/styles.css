@@ -1,10 +1,13 @@
 body{
-　　font-size:20px;
+   align-items: center;
+   font-size:1.1rem;
 }
 
-.to-do-area{
+div.to-do-area{
     margin: 0 auto ;
     padding:0 auto ;
+
+    text-align: center;
 }
 
 
@@ -34,7 +37,8 @@ li{
 
 .input-area{
     background-color: #c1ffff;
-    width:400px;
+    width:auto;
+    max-width:400px;
     height:30px;
     padding:8px;
     margin:8px;
@@ -43,17 +47,23 @@ li{
 
 .imcomplete-area{
     background-color: #c6ffe2;
-    width:400px;
+    width:auto;
+    max-width:400px;
     min-height:200px;
     padding:8px;
     margin:8px;
     border-radius: 8px;
 }
 
+ul.imcomplete-area{
+    text-align: center;
+}
+
 
 .complete-area{
     background-color: #ffffe0;
-    width:400px;
+    width:auto;
+    max-width:400px;
     min-height:200px;
     padding:8px;
     margin:8px;
